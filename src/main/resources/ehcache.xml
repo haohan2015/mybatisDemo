@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+
+    <diskStore path="C:/data"/>
+
+    <defaultCache
+            maxElementsInMemory="3000"
+            copyOnRead="true"
+            copyOnWrite="true"
+            eternal="false"
+            overflowToDisk="true"
+            diskPersistent="true"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600">
+    </defaultCache>
+
+</ehcache>
